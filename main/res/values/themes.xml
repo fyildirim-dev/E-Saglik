@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Saglik" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/turunci</item>
+        <item name="colorPrimaryVariant">@color/beyazimsi</item>
+        <item name="colorOnPrimary">@color/grimsi</item>
+        <item name="colorAccent">@color/grininustu</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/azturunci</item>
+        <item name="colorSecondaryVariant">@color/beyazimsi</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#DBDBDB</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="SlideActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+    </style>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForgotPasswordActivity"
+    android:background="?attr/colorPrimaryVariant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/forgotpassword" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="ŞİFREMİ UNUTTUM"
+            android:fontFamily="@font/montserratbold"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@drawable/border"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:hint="Email"
+            android:fontFamily="@font/montserratsemibold"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/grey"
+            android:drawableStart="@drawable/ic_baseline_alternate_email_24"
+            android:drawablePadding="@dimen/_10sdp"/>
+
+        <EditText
+            android:id="@+id/tc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingLeft="20dp"
+            android:hint="T.C Kimlik"
+            android:fontFamily="@font/montserratsemibold"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/grey"
+            android:drawableStart="@drawable/ic_baseline_person_pin_24"
+            android:drawablePadding="@dimen/_10sdp"/>
+
+        <EditText
+            android:id="@+id/kod"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@drawable/border"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="20dp"
+            android:hint="Doğrulama Kodu"
+            android:fontFamily="@font/montserratsemibold"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/grey"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnKod"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:text="@string/kod_g_nder"
+            android:onClick="onClickBtn"
+            android:background="@drawable/borderbutton"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/montserratsemibold"
+            tools:ignore="MissingConstraints,OnClick"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:onClick="onClickBtn1"
+            android:text="Giriş Sayfasına Geri Dön"
+            android:textColor="@color/turunci"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserratbold"
+            tools:ignore="MissingConstraints,OnClick" />
+
+    </LinearLayout>
+</LinearLayout>

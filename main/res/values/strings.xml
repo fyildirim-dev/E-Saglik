@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Saglik</string>
+    <string name="t_c_kimlik_no">T.C Kimlik No</string>
+    <string name="_11_03_2023">11.03.2023</string>
+    <string name="_16_20">16:20</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="_26_03_2023">26.03.2023</string>
+    <string name="_16_30">16:30</string>
+    <string name="fatih">Fatih!</string>
+    <string name="profil_d_zenle">Profil Düzenle</string>
+    <string name="diller">Diller</string>
+    <string name="dil_se_imi">Dil Seçimi</string>
+    <string name="bize_mesaj_g_nder">Bize Mesaj Gönder</string>
+    <string name="hakk_m_zda">Hakkımızda</string>
+    <string name="s_s_s">S.S.S</string>
+    <string name="k_yap">Çıkış Yap</string>
+    <string name="bildirimler">Bildirimler</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="profili_d_zenle">Profili Düzenle</string>
+    <string name="doktor_teyit">Doktor Teyit</string>
+    <string name="teyitedildi">Teyit Edildi</string>
+    <string name="beni_hat_rla">Beni Hatırla</string>
+    <string name="kay_t_ol">Kayıt Ol</string>
+    <string name="hesab_n_yok_mu">Hesabın Yok Mu?</string>
+    <string name="ifremi_unuttum">Şifremi Unuttum</string>
+    <string name="kayit_ol">KAYIT OL</string>
+    <string name="hesab_n_var_m">Hesabın Var Mı?</string>
+    <string name="doktor_teyit_etme">Doktor Teyit Etme</string>
+    <string name="kod_g_nder">Kod Gönder</string>
+    <string name="hastal_k_veya_la_ad_giriniz">Hastalık veya İlaç Adı Giriniz</string>
+    <string name="poliklinikler">Poliklinikler</string>
+    <string name="_4_5">4.5</string>
+    <string name="esagliktext">E-Sağlık</string>
+</resources>

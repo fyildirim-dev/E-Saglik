@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pembis">#9A7494</color>
+    <color name="koyupembis">#A0284F</color>
+    <color name="beyazimsi">#F1EFFB</color>
+    <color name="beyazolmayansi">#DBDBDB</color>
+    <color name="turunci">#F96247</color>
+    <color name="azturunci">#FEE4D8</color>
+    <color name="grimsi">#C4C3CD</color>
+    <color name="grininustu">#303030</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#818181</color>
+
+    <color name="secondary">#5C5C5C</color>
+    <color name="thirty">#9C9C9C</color>
+
+    <color name="night_mode">#1B023B</color>
+    <color name="notifications">#13B2C3</color>
+
+
+</resources>

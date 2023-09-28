@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Ana sayfa" />
+    <item
+        android:id="@+id/bottom_note"
+        android:icon="@drawable/ic_baseline_content_paste_search_24"
+        android:title="Hastalıklar" />
+    <item
+        android:id="@+id/bottom_favorite"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="Puanlar" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profil" />
+</menu>
